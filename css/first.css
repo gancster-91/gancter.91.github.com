@@ -1,0 +1,20 @@
+#table1 tr:nth-child(1)>td:nth-child(1), #table1 tr:nth-child(1)>td:nth-child(2){
+	background-color:blue;
+}
+#table1 tr:nth-child(2)>td:last-child{
+	background-color:yellow;
+}
+#table1 tr:nth-child(3)>td:nth-child(odd){
+	background-color:#f73ff6;
+}
+#table1 tr:last-child{
+	background-color:gray;
+}
+
+#table2 tr:nth-child(odd)>td:nth-child(even){
+	background-color:black;
+}
+
+#table3 tr:nth-child(even)>td:nth-child(even){
+	background-color:red;
+}
